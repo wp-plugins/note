@@ -4,7 +4,7 @@ Donate link:
 Tags: note, widget, customizer, live edit, wysiwyg, text, text widget, plugin, sidebar
 Requires at least: 4.0
 Tested up to: 4.1.1
-Stable tag: 1.1.0
+Stable tag: 1.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -65,6 +65,9 @@ See the video in our [Description](https://wordpress.org/plugins/note/) for a li
 
 == Changelog ==
 
+= 1.1.1 // March 02 2015 =
+* Added do_shortcode() wrapper around Note Widget output
+
 = 1.1.0 // February 27 2015 =
 * Added is_customizer() function to Note Widget to determine if the current page was the Customizer
 * Added logic to scroll Previewer window to focused Note Widget on "Edit Content" button click
@@ -75,7 +78,7 @@ See the video in our [Description](https://wordpress.org/plugins/note/) for a li
 * Added ability to insert images into Note Widgets
 * Added Toolbar above Note Widgets in Previewer within Customizer
 * Removed unused Customizer JavaScript logic
-* Fixed bug where Note Widgets output slashed data (I\'ve, I\'ll, etc...) on front*end while not in Customizer
+* Fixed bug where Note Widgets output slashed data (I\'ve, I\'ll, etc...) on front-end while not in Customizer
 * Fixed bug where Previewer refresh was triggered while editing content inside of a Note Widget
 * Fixed bug where Note Widgets were not focused properly in Previewer
 * Fixed bug in where Note was not functioning due to JavaScript error in WordPress versions less than 4.0
