@@ -51,7 +51,7 @@ You must be in the front-end Customizer of your WordPress website. Once you're t
 
 Note was created so you could visualize the look & feel of your copy in the context of your website's design. The best way to experience Note is - do it live.
 
-= When will you other features in Note? =
+= When will you support other features in Note? =
 
 We're happy to take your feedback at [https://conductorplugin.com/contact/](https://conductorplugin.com/contact/).
 
