@@ -76,7 +76,7 @@ See the video in our [Description](https://wordpress.org/plugins/note/) for a li
 * Adjust CSS on various Media Frame elements
 * Fixed issue where an uploaded image could not be inserted into a Note Widget during a Customizer session; Thanks Lise Galipeau
 * Fixed JavaScript error where the "frame" object was not yet added to the wp.media object and Note modal commands were attempting to listen to the missing "frame" object resulting in a JavaScript error
-* Fixed bug where <address> content could not be aligned via the Note Toolbar properly while editing a Note Widget
+* Fixed bug where content within an HTML address tag could not be aligned via the Note Toolbar properly while editing a Note Widget
 
 = 1.1.2 // March 12 2015 =
 * Moved Note localize data to Note_Customizer PHP Class
